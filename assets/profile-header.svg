@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Hoyoung Kim — Medical AI Portfolio</title>
+  <desc id="desc">A navy and blue gradient banner with a subtle medical data network pattern.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1930"/>
+      <stop offset="55%" stop-color="#123A63"/>
+      <stop offset="100%" stop-color="#087EA4"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#7DD3FC" stop-opacity=".3"/>
+      <stop offset="100%" stop-color="#7DD3FC" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <circle cx="1040" cy="35" r="220" fill="url(#glow)"/>
+  <g fill="none" stroke="#BAE6FD" stroke-opacity=".22" stroke-width="2">
+    <path d="M890 85 980 45l80 70 92-38"/>
+    <path d="m900 205 78-56 83 40 94-61"/>
+    <path d="m980 45-2 104 82-34 1 74"/>
+    <path d="m890 85 10 120 78-56"/>
+  </g>
+  <g fill="#E0F2FE">
+    <circle cx="890" cy="85" r="6"/>
+    <circle cx="900" cy="205" r="5"/>
+    <circle cx="980" cy="45" r="7"/>
+    <circle cx="978" cy="149" r="6"/>
+    <circle cx="1060" cy="115" r="7"/>
+    <circle cx="1061" cy="189" r="5"/>
+    <circle cx="1152" cy="77" r="6"/>
+    <circle cx="1155" cy="128" r="5"/>
+  </g>
+  <text x="76" y="126" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700">Hoyoung Kim</text>
+  <text x="79" y="176" fill="#BAE6FD" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="500" letter-spacing="2">MEDICAL AI · HEALTHCARE IT · DATA ANALYSIS</text>
+  <rect x="79" y="209" width="90" height="5" rx="2.5" fill="#38BDF8"/>
+</svg>
