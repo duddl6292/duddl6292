@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="250" viewBox="0 0 560 250" role="img" aria-label="Tox21 Toxicity Prediction project card">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#172B46"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#FBBF24" stop-opacity=".24"/>
+      <stop offset="100%" stop-color="#FBBF24" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="1" y="1" width="558" height="248" rx="18" fill="url(#bg)" stroke="#334155" stroke-width="2"/>
+  <circle cx="500" cy="25" r="112" fill="url(#glow)"/>
+  <rect x="34" y="27" width="4" height="18" rx="2" fill="#FBBF24"/>
+  <text x="49" y="41" fill="#FBBF24" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">FEATURED PROJECT</text>
+  <text x="34" y="88" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700">Tox21 Toxicity Prediction</text>
+  <text x="34" y="124" fill="#CBD5E1" font-family="Pretendard, Apple SD Gothic Neo, Segoe UI, Arial, sans-serif" font-size="15">분자 특성 기반 독성 예측 머신러닝 파이프라인</text>
+  <rect x="34" y="166" width="65" height="27" rx="13.5" fill="#FBBF24" fill-opacity=".16" stroke="#FBBF24" stroke-opacity=".55"/>
+    <text x="66.5" y="184" fill="#FBBF24" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">RDKit</text>
+<rect x="108" y="166" width="122.39999999999999" height="27" rx="13.5" fill="#FBBF24" fill-opacity=".16" stroke="#FBBF24" stroke-opacity=".55"/>
+    <text x="169.2" y="184" fill="#FBBF24" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">scikit-learn</text>
+<rect x="239.39999999999998" y="166" width="81.39999999999999" height="27" rx="13.5" fill="#FBBF24" fill-opacity=".16" stroke="#FBBF24" stroke-opacity=".55"/>
+    <text x="280.09999999999997" y="184" fill="#FBBF24" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">XGBoost</text>
+  <text x="34" y="222" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">View Repository</text>
+  <path d="M137 218h18m-6-6 6 6-6 6" fill="none" stroke="#FBBF24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(463 47)" fill="none" stroke="#FBBF24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="8" r="5"/><circle cx="37" cy="13" r="5"/><circle cx="19" cy="36" r="5"/><path d="m13 9 19 3M11 13l6 18M34 17 22 32"/></g>
+</svg>
