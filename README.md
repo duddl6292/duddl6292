@@ -51,27 +51,27 @@
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3>Medical CDSS</h3>
-      <p>의료 영상 AI와 임상 워크플로우를 연결하는 Clinical Decision Support System</p>
-      <p><a href="https://github.com/duddl6292/medical-cdss">View Repository →</a></p>
+    <td width="50%">
+      <a href="https://github.com/duddl6292/medical-cdss">
+        <img src="./assets/card-medical-cdss.svg" alt="Medical CDSS" width="100%" />
+      </a>
     </td>
-    <td width="50%" valign="top">
-      <h3>Stroke Segmentation</h3>
-      <p>뇌졸중 의료영상의 병변을 탐지하고 분할하는 딥러닝 모델 개발</p>
-      <p><a href="https://github.com/duddl6292/stroke-model">View Repository →</a></p>
+    <td width="50%">
+      <a href="https://github.com/duddl6292/stroke-model">
+        <img src="./assets/card-stroke-segmentation.svg" alt="Stroke Segmentation" width="100%" />
+      </a>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3>Tox21 Toxicity Prediction</h3>
-      <p>분자 특성을 활용하여 화학물질의 독성 가능성을 예측하는 머신러닝 프로젝트</p>
-      <p><a href="https://github.com/duddl6292/tox21">View Repository →</a></p>
+    <td width="50%">
+      <a href="https://github.com/duddl6292/tox21">
+        <img src="./assets/card-tox21.svg" alt="Tox21 Toxicity Prediction" width="100%" />
+      </a>
     </td>
-    <td width="50%" valign="top">
-      <h3>Healthcare Mobile App</h3>
-      <p>환자와 의료진의 진료 과정을 연결하는 Flutter 기반 애플리케이션</p>
-      <p><a href="https://github.com/duddl6292/flutter-project">View Repository →</a></p>
+    <td width="50%">
+      <a href="https://github.com/duddl6292/flutter-project">
+        <img src="./assets/card-healthcare-mobile.svg" alt="Healthcare Mobile App" width="100%" />
+      </a>
     </td>
   </tr>
 </table>
