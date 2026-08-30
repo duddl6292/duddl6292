@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="250" viewBox="0 0 560 250" role="img" aria-label="Medical CDSS project card">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#172B46"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity=".24"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="1" y="1" width="558" height="248" rx="18" fill="url(#bg)" stroke="#334155" stroke-width="2"/>
+  <circle cx="500" cy="25" r="112" fill="url(#glow)"/>
+  <rect x="34" y="27" width="4" height="18" rx="2" fill="#38BDF8"/>
+  <text x="49" y="41" fill="#38BDF8" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">FEATURED PROJECT</text>
+  <text x="34" y="88" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700">Medical CDSS</text>
+  <text x="34" y="124" fill="#CBD5E1" font-family="Pretendard, Apple SD Gothic Neo, Segoe UI, Arial, sans-serif" font-size="15">의료 영상 AI와 임상 워크플로우를 연결한 CDSS</text>
+  <rect x="34" y="166" width="81.39999999999999" height="27" rx="13.5" fill="#38BDF8" fill-opacity=".16" stroke="#38BDF8" stroke-opacity=".55"/>
+    <text x="74.69999999999999" y="184" fill="#38BDF8" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">nnU-Net</text>
+<rect x="124.39999999999999" y="166" width="65" height="27" rx="13.5" fill="#38BDF8" fill-opacity=".16" stroke="#38BDF8" stroke-opacity=".55"/>
+    <text x="156.89999999999998" y="184" fill="#38BDF8" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">MOSEC</text>
+<rect x="198.39999999999998" y="166" width="73.19999999999999" height="27" rx="13.5" fill="#38BDF8" fill-opacity=".16" stroke="#38BDF8" stroke-opacity=".55"/>
+    <text x="234.99999999999997" y="184" fill="#38BDF8" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Django</text>
+  <text x="34" y="222" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">View Repository</text>
+  <path d="M137 218h18m-6-6 6 6-6 6" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(463 47)" fill="none" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M0 18h15M7.5 10.5v15"/><circle cx="31" cy="18" r="15"/><path d="M23 18h16M31 10v16"/></g>
+</svg>
