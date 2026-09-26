@@ -1,93 +1,110 @@
 <p align="center">
-  <img src="./assets/profile-header.svg" alt="Hoyoung Kim — Medical AI, Healthcare IT, Data Analysis" width="100%" />
+  <img src="./assets/profile-header.svg" alt="Hoyoung Kim — From medical data to working software" width="100%" />
 </p>
 
 <p align="center">
-  의료 데이터를 바탕으로 문제를 정의하고,<br/>
-  <strong>데이터 검증부터 모델 개발과 서비스 구현까지</strong> 연결하는 과정을 공부하고 있습니다.
+  <strong>의료 데이터를 이해하고, AI 모델을 서비스로 연결하는 개발자 김호영입니다.</strong><br/>
+  기계공학과 연구 경험을 바탕으로 데이터 분석에서 의료영상 AI, 추론 서비스 구현까지 경험을 넓혀왔습니다.
 </p>
 
----
+<p align="center">
+  <a href="#featured-project">대표 프로젝트</a> ·
+  <a href="#my-contribution">담당 역할</a> ·
+  <a href="#tech-stack">기술 스택</a> ·
+  <a href="https://github.com/brainCDSS/BrainCDSS/tree/dev">BrainOn 코드 보기 ↗</a>
+</p>
+
+<br/>
 
 ## About Me
 
-- 의료 AI와 헬스케어 IT 분야에 관심이 있습니다.
-- 의료영상 데이터 분석 및 머신러닝 모델 개발 경험을 쌓고 있습니다.
-- 분석 결과가 실제 서비스와 임상 워크플로우로 이어지는 과정을 중요하게 생각합니다.
+- **관심 분야** · 의료영상 AI, 헬스케어 소프트웨어, 데이터 기반 문제 해결
+- **개발 경험** · 데이터 품질 검증 → 모델 실험·평가 → 추론 API → 결과 시각화 → 클라우드 연동
+- **중요하게 생각하는 것** · 기술 선택의 근거, 재현 가능한 실험, 사용자가 확인할 수 있는 결과
 
-<!-- TODO: 지원 직무에 맞춰 자기소개, 교육 과정, 연구 경험과 강점을 구체화 -->
+<br/>
 
-## Tech Stack
+<a id="featured-project"></a>
+## Featured Project
 
-**AI & Data**
+### BrainOn · 뇌혈관질환 AI 임상 의사결정 지원 시스템
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![MONAI](https://img.shields.io/badge/MONAI-65B9E7?style=flat-square&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+> **의료영상 AI 분석 결과를 의료진의 진료 흐름으로 연결하는 4인 팀 프로젝트**
 
-**Backend & Database**
-
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-
-**Frontend & Mobile**
-
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-
-**Cloud & Tools**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-
-<!-- TODO: 실제 사용 수준을 검토한 뒤 기술을 추가하거나 정리 -->
-
-## Featured Projects
+CT 뇌출혈, MRI 허혈성 병변, MRA 뇌동맥류 분석을 대상으로 모델 개발과 추론 서비스, 의료진 웹의 결과 조회 흐름을 연결했습니다. 팀 서비스에서 **의료영상 모델 실험, 추론 파이프라인, 분석 결과 화면 및 모델 관리 연동**을 중심으로 담당했습니다.
 
 <table>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/duddl6292/medical-cdss">
-        <img src="./assets/card-medical-cdss.svg" alt="Medical CDSS" width="100%" />
-      </a>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/duddl6292/stroke-model">
-        <img src="./assets/card-stroke-segmentation.svg" alt="Stroke Segmentation" width="100%" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/duddl6292/tox21">
-        <img src="./assets/card-tox21.svg" alt="Tox21 Toxicity Prediction" width="100%" />
-      </a>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/duddl6292/flutter-project">
-        <img src="./assets/card-healthcare-mobile.svg" alt="Healthcare Mobile App" width="100%" />
-      </a>
-    </td>
-  </tr>
+<tr>
+<td width="50%" valign="top">
+<h4>01 / Medical Imaging AI</h4>
+<p>의료영상 데이터 품질 검증과 전처리<br/>nnU-Net · SegResNet 기반 분할 실험<br/>손실 함수 · 샘플링 · 입력 구조 비교</p>
+</td>
+<td width="50%" valign="top">
+<h4>02 / Inference &amp; Serving</h4>
+<p>FastAPI 기반 공통 추론 인터페이스<br/>Django · Celery 분석 요청 연동<br/>GCS 모델·결과 저장 및 Cloud Run 연동</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h4>03 / Interactive Viewer</h4>
+<p>의료영상과 병변 마스크 시각화<br/>DWI / ADC 채널 전환 및 병변 정보 표시<br/>확률 맵 · XAI 결과 조회 연동</p>
+</td>
+<td width="50%" valign="top">
+<h4>04 / Model Management</h4>
+<p>MLflow 실험·모델 메타데이터 관리<br/>Registry와 관리자 화면 동기화<br/>모델 버전 조회와 운영 관리 흐름 연결</p>
+</td>
+</tr>
 </table>
 
-<!-- TODO: 프로젝트별 담당 역할, 기술 스택, 문제 해결 과정과 정량적 결과 추가 -->
+**[서비스 저장소 ↗](https://github.com/brainCDSS/BrainCDSS/tree/dev)** &nbsp; · &nbsp; **[의료영상 모델 실험 저장소 ↗](https://github.com/duddl6292/stroke-model)**
 
-## Experience & Education
+<sub>모델 실험과 서비스 코드는 같은 BrainOn 프로젝트의 구성 요소이며, 저장소를 분리하여 관리합니다.</sub>
 
-<!-- TODO: 교육 과정, 학부 연구 경험, 프로젝트 기간과 역할 추가 -->
+<br/>
 
-## Certifications
+<a id="my-contribution"></a>
+## My Contribution
 
-<!-- TODO: SQLD, ADsP 등 자격증과 취득 시점 추가 -->
+| 영역 | 직접 수행한 작업 |
+| :--- | :--- |
+| **데이터 및 모델** | CT 데이터 품질 점검·전처리, 분할 모델 학습 및 평가, 작은 병변 검출 개선을 위한 손실 함수·샘플링 실험 |
+| **추론 파이프라인** | 공통 입출력 계약, 모델 로딩, FastAPI 추론 API, Django·Celery 및 GCS 연동 |
+| **분석 화면** | React 기반 AI 분석 결과 화면, 병변 정보·확률 맵·XAI 데이터와 의료영상 뷰어 연결 |
+| **모델 운영 연동** | MLflow Tracking·Registry 연결, 모델 버전·실험 메타데이터 동기화, 관리자 ML 화면 구현 |
 
-## Contact
+<br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-duddl6292-181717?style=flat-square&logo=github)](https://github.com/duddl6292)
+<a id="tech-stack"></a>
+## Tech Stack
 
-<!-- TODO: 공개할 이메일 또는 LinkedIn 추가 -->
+<sub>BrainOn에서 직접 활용한 기술을 중심으로 정리했습니다.</sub>
+
+| 분야 | 기술 |
+| :--- | :--- |
+| **Language** | Python · TypeScript · SQL |
+| **AI & Data** | PyTorch · MONAI · nnU-Net · SegResNet · NumPy |
+| **Backend & Async** | Django REST Framework · FastAPI · Celery · RabbitMQ · MOSEC |
+| **Frontend** | React · Vite |
+| **Database & Cloud** | PostgreSQL · Google Cloud Run · Cloud Storage |
+| **Experiment & Tools** | MLflow · Docker · Git · GitHub |
+
+<br/>
+
+## Background
+
+| 구분 | 내용 |
+| :--- | :--- |
+| **전공** | 기계공학 |
+| **연구 경험** | MMM 연구실 학부연구생 · 자기장 에너지 하베스팅 연구 |
+| **교육** | Biomedical AI 과정 · 2026.03–2026.09 |
+| **자격증** | SQLD · ADsP |
+
+<br/>
+
+---
+
+<p align="center">
+  <strong>데이터에서 모델로, 모델에서 서비스로.</strong><br/>
+  <sub>김호영 · Medical AI &amp; Healthcare Software</sub><br/><br/>
+  <a href="https://github.com/duddl6292">GitHub @duddl6292</a>
+</p>
