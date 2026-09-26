@@ -1,36 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-  <title id="title">Hoyoung Kim — Medical AI Portfolio</title>
-  <desc id="desc">A navy and blue gradient banner with a subtle medical data network pattern.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0B1930"/>
-      <stop offset="55%" stop-color="#123A63"/>
-      <stop offset="100%" stop-color="#087EA4"/>
-    </linearGradient>
-    <radialGradient id="glow">
-      <stop offset="0%" stop-color="#7DD3FC" stop-opacity=".3"/>
-      <stop offset="100%" stop-color="#7DD3FC" stop-opacity="0"/>
-    </radialGradient>
-  </defs>
-  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
-  <circle cx="1040" cy="35" r="220" fill="url(#glow)"/>
-  <g fill="none" stroke="#BAE6FD" stroke-opacity=".22" stroke-width="2">
-    <path d="M890 85 980 45l80 70 92-38"/>
-    <path d="m900 205 78-56 83 40 94-61"/>
-    <path d="m980 45-2 104 82-34 1 74"/>
-    <path d="m890 85 10 120 78-56"/>
-  </g>
-  <g fill="#E0F2FE">
-    <circle cx="890" cy="85" r="6"/>
-    <circle cx="900" cy="205" r="5"/>
-    <circle cx="980" cy="45" r="7"/>
-    <circle cx="978" cy="149" r="6"/>
-    <circle cx="1060" cy="115" r="7"/>
-    <circle cx="1061" cy="189" r="5"/>
-    <circle cx="1152" cy="77" r="6"/>
-    <circle cx="1155" cy="128" r="5"/>
-  </g>
-  <text x="76" y="126" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700">Hoyoung Kim</text>
-  <text x="79" y="176" fill="#BAE6FD" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="500" letter-spacing="2">MEDICAL AI · HEALTHCARE IT · DATA ANALYSIS</text>
-  <rect x="79" y="209" width="90" height="5" rx="2.5" fill="#38BDF8"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+<title id="title">Hoyoung Kim — From medical data to working software</title>
+<desc id="desc">Medical AI and healthcare software portfolio. Navy background with mint accents and layered imaging graphics.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101d32"/><stop offset="1" stop-color="#163b49"/></linearGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#fff" stroke-opacity=".045"/></pattern></defs>
+<rect width="1200" height="340" rx="22" fill="url(#bg)"/><rect width="1200" height="340" rx="22" fill="url(#grid)"/>
+<rect x="64" y="54" width="34" height="4" rx="2" fill="#64e5c4"/>
+<text x="112" y="61" font-family="Arial,sans-serif" font-size="14" letter-spacing="3" fill="#83decd">ENGINEERING × HEALTHCARE</text>
+<text x="60" y="145" font-family="Arial,sans-serif" font-size="64" font-weight="700" letter-spacing="-2" fill="#f6f9fc">Hoyoung Kim</text>
+<text x="64" y="197" font-family="Arial,sans-serif" font-size="26" fill="#d7e6ec">From medical data to working software.</text>
+<text x="64" y="269" font-family="Arial,sans-serif" font-size="15" letter-spacing="2" fill="#91afb9">MEDICAL AI / BACKEND / CLOUD</text>
+<g fill="#163443" stroke="#77dfc8" stroke-opacity=".45"><rect x="903" y="60" width="186" height="186" rx="25" transform="rotate(12 996 153)"/><rect x="870" y="83" width="186" height="186" rx="25" transform="rotate(6 963 176)"/><rect x="837" y="105" width="186" height="186" rx="25"/></g>
+<g fill="none" stroke="#74e6cb" stroke-width="2.5"><ellipse cx="930" cy="198" rx="54" ry="65"/><path d="M930 139v116m-10-103c-28 4-35 21-26 37-19 15-7 43 16 43m31-80c28 4 35 21 26 37 19 15 7 43-16 43m-44-57 14 13-15 16m47-29-14 13 15 16"/></g>
+<circle cx="1023" cy="105" r="7" fill="#74e6cb"/>
 </svg>
