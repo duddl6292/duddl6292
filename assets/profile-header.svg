@@ -1,14 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
 <title id="title">Hoyoung Kim — AI Engineer</title>
-<desc id="desc">AI engineering portfolio. Navy background with mint accents and layered imaging graphics.</desc>
-<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101d32"/><stop offset="1" stop-color="#163b49"/></linearGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#fff" stroke-opacity=".045"/></pattern></defs>
-<rect width="1200" height="340" rx="22" fill="url(#bg)"/><rect width="1200" height="340" rx="22" fill="url(#grid)"/>
-<rect x="64" y="54" width="34" height="4" rx="2" fill="#64e5c4"/>
-<text x="112" y="61" font-family="Arial,sans-serif" font-size="14" letter-spacing="3" fill="#83decd">AI ENGINEERING · MEDICAL IMAGING</text>
-<text x="60" y="145" font-family="Arial,sans-serif" font-size="64" font-weight="700" letter-spacing="-2" fill="#f6f9fc">Hoyoung Kim</text>
-<text x="64" y="197" font-family="Arial,sans-serif" font-size="26" fill="#d7e6ec">From data to models, from models to products.</text>
-<text x="64" y="269" font-family="Arial,sans-serif" font-size="15" letter-spacing="2" fill="#91afb9">DATA / MODELING / EVALUATION / SERVING</text>
-<g fill="#163443" stroke="#77dfc8" stroke-opacity=".45"><rect x="903" y="60" width="186" height="186" rx="25" transform="rotate(12 996 153)"/><rect x="870" y="83" width="186" height="186" rx="25" transform="rotate(6 963 176)"/><rect x="837" y="105" width="186" height="186" rx="25"/></g>
-<g fill="none" stroke="#74e6cb" stroke-width="2.5"><ellipse cx="930" cy="198" rx="54" ry="65"/><path d="M930 139v116m-10-103c-28 4-35 21-26 37-19 15-7 43 16 43m31-80c28 4 35 21 26 37 19 15 7 43-16 43m-44-57 14 13-15 16m47-29-14 13 15 16"/></g>
-<circle cx="1023" cy="105" r="7" fill="#74e6cb"/>
+<desc id="desc">Dark navy portfolio banner with mint accents and an abstract medical image analysis visualization.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1425"/><stop offset=".6" stop-color="#10283a"/><stop offset="1" stop-color="#123e46"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#80f4cf"/><stop offset="1" stop-color="#4fb3d1"/></linearGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#d7fcf7" stroke-opacity=".055"/></pattern>
+  <clipPath id="frame"><rect x="0" y="0" width="1200" height="360" rx="26"/></clipPath>
+</defs>
+<g clip-path="url(#frame)">
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+  <circle cx="1090" cy="-80" r="300" fill="#42ceb6" opacity=".045"/>
+  <circle cx="770" cy="420" r="240" fill="#5bc7e0" opacity=".045"/>
+  <path d="M0 334H1200" stroke="#b4efe0" stroke-opacity=".12"/>
+  <rect x="62" y="51" width="9" height="9" rx="2" fill="#76e7c7"/>
+  <text x="86" y="61" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="3" fill="#78e5c9">AI ENGINEER  /  MEDICAL IMAGING</text>
+  <text x="58" y="146" font-family="Arial,sans-serif" font-size="63" font-weight="700" letter-spacing="-2" fill="#f7fbff">Hoyoung Kim</text>
+  <rect x="62" y="168" width="50" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="62" y="222" font-family="Arial,sans-serif" font-size="26" fill="#d5e9ef">From data to models. From models to products.</text>
+  <text x="62" y="295" font-family="Arial,sans-serif" font-size="14" letter-spacing="2" fill="#9cb7c1">DATA VALIDATION   /   MODEL EVALUATION   /   INFERENCE</text>
+  <rect x="797" y="54" width="286" height="250" rx="22" fill="#102a3b" stroke="#71e4c7" stroke-opacity=".35"/>
+  <rect x="817" y="74" width="246" height="210" rx="13" fill="#0b1d2e" stroke="#8bd9d6" stroke-opacity=".22"/>
+  <path d="M858 87V272M899 87V272M940 87V272M981 87V272M1022 87V272M828 116H1052M828 157H1052M828 198H1052M828 239H1052" stroke="#7ec9d3" stroke-opacity=".09"/>
+  <path d="M940 101c-42 0-74 34-74 76 0 39 29 72 65 75m9-151c42 0 74 34 74 76 0 39-29 72-65 75" fill="none" stroke="#79e7cf" stroke-width="2.4" stroke-opacity=".8"/>
+  <path d="M940 101v151m-13-133c-21 5-29 19-23 34-17 12-15 31 1 40-6 17 5 34 22 38m26-112c21 5 29 19 23 34 17 12 15 31-1 40 6 17-5 34-22 38" fill="none" stroke="#7dcfe0" stroke-width="2" stroke-opacity=".7"/>
+  <path d="M900 176l18 15 15-19m47 4-18 15-15-19" fill="none" stroke="#74edcb" stroke-width="2.2"/>
+  <circle cx="1037" cy="99" r="5" fill="#75e7c8"/>
+  <path d="M783 112h-18v24m333 102h18v-24" fill="none" stroke="#7de9ce" stroke-width="2" stroke-opacity=".7"/>
+  <rect x="828" y="269" width="89" height="6" rx="3" fill="#71e4c7" opacity=".8"/>
+  <rect x="924" y="269" width="47" height="6" rx="3" fill="#5ca7c3" opacity=".55"/>
+  <rect x="978" y="269" width="29" height="6" rx="3" fill="#5ca7c3" opacity=".35"/>
+  <text x="801" y="329" font-family="Arial,sans-serif" font-size="12" letter-spacing="2" fill="#9fbfc7">BUILD  ·  MEASURE  ·  IMPROVE</text>
+</g>
 </svg>
