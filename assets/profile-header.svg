@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
-<title id="title">Hoyoung Kim — From medical data to working software</title>
-<desc id="desc">Medical AI and healthcare software portfolio. Navy background with mint accents and layered imaging graphics.</desc>
+<title id="title">Hoyoung Kim — AI Engineer</title>
+<desc id="desc">AI engineering portfolio. Navy background with mint accents and layered imaging graphics.</desc>
 <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101d32"/><stop offset="1" stop-color="#163b49"/></linearGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#fff" stroke-opacity=".045"/></pattern></defs>
 <rect width="1200" height="340" rx="22" fill="url(#bg)"/><rect width="1200" height="340" rx="22" fill="url(#grid)"/>
 <rect x="64" y="54" width="34" height="4" rx="2" fill="#64e5c4"/>
-<text x="112" y="61" font-family="Arial,sans-serif" font-size="14" letter-spacing="3" fill="#83decd">ENGINEERING × HEALTHCARE</text>
+<text x="112" y="61" font-family="Arial,sans-serif" font-size="14" letter-spacing="3" fill="#83decd">AI ENGINEERING · MEDICAL IMAGING</text>
 <text x="60" y="145" font-family="Arial,sans-serif" font-size="64" font-weight="700" letter-spacing="-2" fill="#f6f9fc">Hoyoung Kim</text>
-<text x="64" y="197" font-family="Arial,sans-serif" font-size="26" fill="#d7e6ec">From medical data to working software.</text>
-<text x="64" y="269" font-family="Arial,sans-serif" font-size="15" letter-spacing="2" fill="#91afb9">MEDICAL AI / BACKEND / CLOUD</text>
+<text x="64" y="197" font-family="Arial,sans-serif" font-size="26" fill="#d7e6ec">From data to models, from models to products.</text>
+<text x="64" y="269" font-family="Arial,sans-serif" font-size="15" letter-spacing="2" fill="#91afb9">DATA / MODELING / EVALUATION / SERVING</text>
 <g fill="#163443" stroke="#77dfc8" stroke-opacity=".45"><rect x="903" y="60" width="186" height="186" rx="25" transform="rotate(12 996 153)"/><rect x="870" y="83" width="186" height="186" rx="25" transform="rotate(6 963 176)"/><rect x="837" y="105" width="186" height="186" rx="25"/></g>
 <g fill="none" stroke="#74e6cb" stroke-width="2.5"><ellipse cx="930" cy="198" rx="54" ry="65"/><path d="M930 139v116m-10-103c-28 4-35 21-26 37-19 15-7 43 16 43m31-80c28 4 35 21 26 37 19 15 7 43-16 43m-44-57 14 13-15 16m47-29-14 13 15 16"/></g>
 <circle cx="1023" cy="105" r="7" fill="#74e6cb"/>
