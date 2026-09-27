@@ -51,6 +51,5 @@
 
 - [모델 연구 저장소](https://github.com/brainCDSS/model) — 팀 비공개 저장소. 학습·실험·평가 코드와 설정을 관리합니다.
 - [BrainOn 서비스 저장소](https://github.com/brainCDSS/BrainCDSS) — 팀 비공개 저장소. 의료진 웹, 백엔드, 추론 연동 등을 관리합니다.
-- [초기 추론 API 시제품](https://github.com/duddl6292/stroke-model) — 공개 저장소. TensorFlow 기반 초기 시제품이며 최종 모델 실험 코드는 아닙니다.
 
 이 문서는 제가 수행한 작업과 기술적 판단을 설명하는 공개 요약입니다. 원본 영상, 모델 가중치와 내부 설정은 포함하지 않았습니다.
