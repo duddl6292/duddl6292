@@ -21,9 +21,9 @@
 - **추론 연동:** 모델 로딩과 FastAPI 추론 API를 Django·Celery·GCS 흐름에 연결하고, 뷰어에서 병변 마스크·확률 맵·XAI 결과를 확인하도록 연동했습니다.
 - **모델 관리:** MLflow 모델 정보를 관리자 화면과 연결하는 작업에 참여했습니다.
 
-**코드 링크:** [초기 추론 API 시제품](https://github.com/duddl6292/stroke-model) · [BrainOn 팀 서비스](https://github.com/brainCDSS/BrainCDSS/tree/dev) (접근 권한 필요)
+**자세히 보기:** [BrainOn AI 기술 요약](docs/brainon-ai.md) · [모델 연구 저장소](https://github.com/brainCDSS/model) · [팀 서비스 저장소](https://github.com/brainCDSS/BrainCDSS/tree/dev) (두 팀 저장소는 접근 권한 필요)
 
-> 공개 시제품 저장소에는 최종 nnU-Net·SegResNet 모델 실험 코드가 포함되어 있지 않습니다.
+[초기 추론 API 시제품](https://github.com/duddl6292/stroke-model)은 별도로 공개했습니다. 최종 모델 실험 코드는 이 시제품에 포함되어 있지 않습니다.
 
 ## 배경
 
