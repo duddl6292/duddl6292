@@ -26,7 +26,12 @@
 [프로젝트 기술 요약](docs/brainon-ai.md) · [모델 연구 저장소](https://github.com/brainCDSS/model) · [팀 서비스 저장소](https://github.com/brainCDSS/BrainCDSS/tree/dev)  
 *팀 저장소 2곳은 접근 권한이 필요합니다.*
 
-## 배경
+## 학력·교육
 
-기계공학 전공 · MMM 연구실 학부연구생 (자기장 에너지 하베스팅 연구)  
-Biomedical AI 과정 (2026.03–2026.09) · SQLD · ADsP
+- 기계공학 전공 · MMM 연구실 학부연구생 (자기장 에너지 하베스팅 연구)
+- Biomedical AI 과정 (2026.03–2026.09)
+
+## 자격증
+
+- SQLD
+- ADsP
