@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" role="img" aria-labelledby="title desc">
+<title id="title">Hoyoung Kim technology stack</title>
+<desc id="desc">AI and Data: Python, PyTorch, MONAI, nnU-Net, SegResNet, NumPy. Backend and Serving: FastAPI, Django REST Framework, Celery, RabbitMQ, Docker. Cloud and MLOps: Cloud Run, Cloud Storage, MLflow. Product and Database: React, TypeScript, PostgreSQL.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0e1b2c"/><stop offset="1" stop-color="#163b48"/></linearGradient>
+  <linearGradient id="a" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#75edc4"/><stop offset="1" stop-color="#69c6e6"/></linearGradient>
+</defs>
+<rect width="1200" height="370" rx="22" fill="url(#bg)"/>
+<text x="38" y="52" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="3" fill="#79e7cd">TECH STACK</text>
+<text x="38" y="83" font-family="Arial,sans-serif" font-size="18" fill="#bad5dc">Tools I used across model development and service integration</text>
+<g font-family="Arial,sans-serif">
+<rect x="36" y="111" width="270" height="222" rx="16" fill="#132d3d" stroke="#63ddb9" stroke-opacity=".55"/>
+<rect x="36" y="111" width="270" height="5" rx="2" fill="#68e6bd"/>
+<circle cx="65" cy="151" r="11" fill="#1b604d" stroke="#76ecc6" stroke-width="2"/>
+<text x="86" y="157" font-size="19" font-weight="700" fill="#f1fbfc">AI &amp; Data</text>
+<text x="56" y="199" font-size="19" fill="#d7eaed">Python  ·  PyTorch</text>
+<text x="56" y="232" font-size="18" fill="#c2dce0">MONAI  ·  NumPy</text>
+<text x="56" y="265" font-size="18" fill="#c2dce0">nnU-Net  ·  SegResNet</text>
+<text x="56" y="309" font-size="13" letter-spacing="2" fill="#77d9bd">MODEL EXPERIMENTS</text>
+
+<rect x="322" y="111" width="270" height="222" rx="16" fill="#132d3d" stroke="#6adbcf" stroke-opacity=".55"/>
+<rect x="322" y="111" width="270" height="5" rx="2" fill="#68dccc"/>
+<circle cx="351" cy="151" r="11" fill="#1c5a5b" stroke="#7ce9d9" stroke-width="2"/>
+<text x="372" y="157" font-size="19" font-weight="700" fill="#f1fbfc">Backend &amp; Serving</text>
+<text x="342" y="199" font-size="19" fill="#d7eaed">FastAPI  ·  DRF</text>
+<text x="342" y="232" font-size="18" fill="#c2dce0">Celery  ·  RabbitMQ</text>
+<text x="342" y="265" font-size="18" fill="#c2dce0">Docker</text>
+<text x="342" y="309" font-size="13" letter-spacing="2" fill="#77d9cf">INFERENCE API</text>
+
+<rect x="608" y="111" width="270" height="222" rx="16" fill="#132d3d" stroke="#70cfe1" stroke-opacity=".55"/>
+<rect x="608" y="111" width="270" height="5" rx="2" fill="#6bcbe1"/>
+<circle cx="637" cy="151" r="11" fill="#23516b" stroke="#80d5ec" stroke-width="2"/>
+<text x="658" y="157" font-size="19" font-weight="700" fill="#f1fbfc">Cloud &amp; MLOps</text>
+<text x="628" y="199" font-size="19" fill="#d7eaed">Cloud Run  ·  GCS</text>
+<text x="628" y="232" font-size="18" fill="#c2dce0">MLflow</text>
+<text x="628" y="309" font-size="13" letter-spacing="2" fill="#82cde3">MODEL OPERATIONS</text>
+
+<rect x="894" y="111" width="270" height="222" rx="16" fill="#132d3d" stroke="#79b9eb" stroke-opacity=".55"/>
+<rect x="894" y="111" width="270" height="5" rx="2" fill="#7bbce8"/>
+<circle cx="923" cy="151" r="11" fill="#2b456a" stroke="#94c7f2" stroke-width="2"/>
+<text x="944" y="157" font-size="19" font-weight="700" fill="#f1fbfc">Product &amp; DB</text>
+<text x="914" y="199" font-size="19" fill="#d7eaed">React  ·  TypeScript</text>
+<text x="914" y="232" font-size="18" fill="#c2dce0">PostgreSQL</text>
+<text x="914" y="309" font-size="13" letter-spacing="2" fill="#93bce8">RESULT VIEWER</text>
+</g>
+</svg>
