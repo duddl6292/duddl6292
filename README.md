@@ -1,81 +1,32 @@
-<p align="center">
-  <img src="./assets/profile-header.svg" alt="Hoyoung Kim — AI Engineer" width="100%" />
-</p>
+# 김호영 | AI Engineer
 
-<p align="center">
-  <strong>데이터를 검증하고, 모델을 실험·개선하며, 추론 결과를 서비스로 연결합니다.</strong><br/>
-  데이터 품질 확인부터 모델 평가, 추론 API, 결과 시각화까지 경험한 AI 엔지니어 김호영입니다.
-</p>
+데이터를 검증하고 모델을 실험·평가한 뒤, 추론 결과를 서비스에서 사용할 수 있도록 연결하는 데 관심이 있습니다. 기계공학 연구에서 데이터 분석을 시작해 AI 모델 개발과 서비스 구현으로 경험을 넓혀왔습니다.
 
-<p align="center">
-  <a href="#tech-stack">STACK</a> &nbsp;•&nbsp;
-  <a href="#featured-project">PROJECT</a> &nbsp;•&nbsp;
-  <a href="#what-i-did">MY WORK</a>
-</p>
+## 기술 스택
 
-<br/>
+| 영역 | 사용 기술 |
+| :--- | :--- |
+| **모델·데이터** | Python, PyTorch, MONAI, nnU-Net, SegResNet, NumPy |
+| **추론·백엔드** | FastAPI, Django REST Framework, Celery, RabbitMQ |
+| **운영·제품** | MLflow, Docker, Cloud Run, GCS, PostgreSQL, React, TypeScript |
 
-<a id="tech-stack"></a>
+## 대표 프로젝트
 
-## 01 / Tech Stack
+### BrainOn — 의료영상 AI 기반 임상 의사결정 지원 시스템
 
-<p align="center">
-  <img src="./assets/tech-stack.svg" alt="Tech stack: Python, PyTorch, MONAI, nnU-Net, SegResNet, NumPy, FastAPI, DRF, Celery, RabbitMQ, Docker, Cloud Run, GCS, MLflow, React, TypeScript, PostgreSQL" width="100%" />
-</p>
+4인 팀에서 CT·MRI·MRA 영상 분석 모델과 의료진 웹을 연결한 프로젝트입니다. 저는 **데이터 품질 검증, 분할 모델 실험·평가, 추론 파이프라인, 분석 결과 화면 연동**을 중심으로 작업했습니다.
 
-<a id="featured-project"></a>
+- **데이터 검증:** CT 영상의 방향·간격·레이블을 점검하고 전처리 기준을 정리했습니다.
+- **모델 실험·평가:** nnU-Net과 SegResNet의 손실 함수·샘플링·입력 구성을 비교하고, Dice·Recall·Precision과 작은 병변 성능을 분석했습니다.
+- **추론 연동:** 모델 로딩과 FastAPI 추론 API를 Django·Celery·GCS 흐름에 연결하고, 뷰어에서 병변 마스크·확률 맵·XAI 결과를 확인하도록 연동했습니다.
+- **모델 관리:** MLflow 모델 정보를 관리자 화면과 연결하는 작업에 참여했습니다.
 
-## 02 / Featured Project
+**저장소:** [모델 실험](https://github.com/duddl6292/stroke-model) · [BrainOn 서비스](https://github.com/brainCDSS/BrainCDSS/tree/dev) (팀 저장소, 접근 권한 필요)
 
-### BrainOn <sub>의료영상 AI · 임상 의사결정 지원 시스템</sub>
+> 모델 연구와 서비스 구현은 별도 프로젝트가 아니라 BrainOn의 두 구성 요소입니다.
 
-**CT · MRI · MRA 영상 분석을 의료진의 진료 흐름에 연결한 4인 팀 프로젝트**
-
-의료영상 분할 모델을 연구·실험하고, 추론 결과를 의료진 웹에서 확인할 수 있도록 연결했습니다. 데이터 품질 검증, 모델 실험·평가, 추론 파이프라인, 분석 결과 화면 연동을 중심으로 담당했습니다.
-
-<p align="center">
-  <img src="./assets/brainon-workflow.svg" alt="BrainOn AI workflow: data validation, model experiments, evaluation, inference" width="100%" />
-</p>
-
-<p>
-  <strong>Explore the project</strong> &nbsp;
-  <a href="https://github.com/duddl6292/stroke-model">모델 실험 저장소 ↗</a> &nbsp;·&nbsp;
-  <a href="https://github.com/brainCDSS/BrainCDSS/tree/dev">BrainOn 팀 서비스 ↗</a>
-</p>
-
-<sub>두 저장소는 하나의 BrainOn 프로젝트를 모델 연구와 서비스 구현으로 나누어 관리합니다. 팀 저장소는 접근 권한이 필요할 수 있습니다.</sub>
-
-<br/><br/>
-
-<a id="what-i-did"></a>
-
-## 03 / My Work
-
-**데이터 품질** &nbsp; CT 영상의 방향·간격·레이블을 점검하고 전처리 기준을 정리했습니다.
-
-**모델 실험** &nbsp; nnU-Net과 SegResNet을 바탕으로 손실 함수·샘플링·입력 구조를 비교하고, Dice·Recall·Precision과 병변 크기별 결과로 실패 양상을 분석했습니다.
-
-**추론 연결** &nbsp; 모델 로딩과 FastAPI 추론 API를 Django·Celery·GCS 흐름에 연결했습니다. 의료영상 뷰어에 병변 정보·확률 맵·XAI 결과를 표시하고 MLflow 관리자 연동에 참여했습니다.
-
-> BrainOn에서 익힌 데이터 검증, 실험 설계, 실패 분석, 추론 구현 방식을 새로운 문제와 데이터에도 적용하고자 합니다.
-
-<br/>
-
-<details>
-<summary><b>Background &amp; Credentials</b></summary>
-<br/>
+## 배경
 
 - 기계공학 전공 · MMM 연구실 학부연구생 (자기장 에너지 하베스팅 연구)
-- Biomedical AI 과정 · 2026.03–2026.09
+- Biomedical AI 과정 (2026.03–2026.09)
 - SQLD · ADsP
-
-</details>
-
-<br/>
-
----
-
-<p align="center">
-  <strong>데이터 검증 → 모델 실험 → 성능 분석 → 추론 서비스</strong><br/>
-  <sub>김호영 · AI Engineer</sub>
-</p>
