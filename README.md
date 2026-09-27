@@ -23,8 +23,6 @@
 
 **자세히 보기:** [BrainOn AI 기술 요약](docs/brainon-ai.md) · [모델 연구 저장소](https://github.com/brainCDSS/model) · [팀 서비스 저장소](https://github.com/brainCDSS/BrainCDSS/tree/dev) (두 팀 저장소는 접근 권한 필요)
 
-[초기 추론 API 시제품](https://github.com/duddl6292/stroke-model)은 별도로 공개했습니다. 최종 모델 실험 코드는 이 시제품에 포함되어 있지 않습니다.
-
 ## 배경
 
 - 기계공학 전공 · MMM 연구실 학부연구생 (자기장 에너지 하베스팅 연구)
