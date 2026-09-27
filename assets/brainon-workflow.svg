@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">BrainOn AI engineering workflow</title>
+<desc id="desc">Four stages: data quality, model experiments, evaluation, and inference integration.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d1a2d"/><stop offset="1" stop-color="#123e48"/></linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#67e8c2"/><stop offset="1" stop-color="#65bfe8"/></linearGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#b3e8e2" opacity=".11"/></pattern>
+</defs>
+<rect width="1200" height="360" rx="22" fill="url(#bg)"/>
+<rect width="1200" height="360" rx="22" fill="url(#dots)"/>
+<text x="42" y="53" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3" fill="#74e6ca">BRAINON  /  AI ENGINEERING WORKFLOW</text>
+<text x="42" y="89" font-family="Arial,sans-serif" font-size="22" fill="#e7f4f6">From imaging data to a usable inference result</text>
+<path d="M170 148H1030" stroke="url(#line)" stroke-width="3" opacity=".7"/>
+<g font-family="Arial,sans-serif">
+  <rect x="38" y="139" width="266" height="182" rx="18" fill="#122b3b" stroke="#5de0bc" stroke-opacity=".65"/>
+  <circle cx="72" cy="149" r="21" fill="#0d352f" stroke="#6be9c1" stroke-width="2"/>
+  <text x="64" y="155" font-size="16" font-weight="700" fill="#8af3cf">01</text>
+  <text x="59" y="204" font-size="22" font-weight="700" fill="#f1fbfc">DATA QUALITY</text>
+  <rect x="59" y="222" width="39" height="3" rx="1.5" fill="#6ae8c1"/>
+  <text x="59" y="257" font-size="16" fill="#b9d8de">CT image validation</text>
+  <text x="59" y="282" font-size="15" fill="#91b6c0">orientation · spacing · labels</text>
+
+  <rect x="324" y="139" width="266" height="182" rx="18" fill="#122b3b" stroke="#70dbcf" stroke-opacity=".65"/>
+  <circle cx="358" cy="149" r="21" fill="#103638" stroke="#71e2d4" stroke-width="2"/>
+  <text x="350" y="155" font-size="16" font-weight="700" fill="#8be9dd">02</text>
+  <text x="345" y="204" font-size="22" font-weight="700" fill="#f1fbfc">MODEL LAB</text>
+  <rect x="345" y="222" width="39" height="3" rx="1.5" fill="#72e0d1"/>
+  <text x="345" y="257" font-size="16" fill="#b9d8de">Segmentation experiments</text>
+  <text x="345" y="282" font-size="15" fill="#91b6c0">nnU-Net · SegResNet</text>
+
+  <rect x="610" y="139" width="266" height="182" rx="18" fill="#122b3b" stroke="#70c9e0" stroke-opacity=".65"/>
+  <circle cx="644" cy="149" r="21" fill="#103345" stroke="#74cee4" stroke-width="2"/>
+  <text x="636" y="155" font-size="16" font-weight="700" fill="#92e0ef">03</text>
+  <text x="631" y="204" font-size="22" font-weight="700" fill="#f1fbfc">EVALUATION</text>
+  <rect x="631" y="222" width="39" height="3" rx="1.5" fill="#70cce5"/>
+  <text x="631" y="257" font-size="16" fill="#b9d8de">Error analysis</text>
+  <text x="631" y="282" font-size="15" fill="#91b6c0">Dice · Recall · small lesions</text>
+
+  <rect x="896" y="139" width="266" height="182" rx="18" fill="#122b3b" stroke="#75bde8" stroke-opacity=".65"/>
+  <circle cx="930" cy="149" r="21" fill="#122e46" stroke="#7bc4f0" stroke-width="2"/>
+  <text x="922" y="155" font-size="16" font-weight="700" fill="#9ed3fa">04</text>
+  <text x="917" y="204" font-size="22" font-weight="700" fill="#f1fbfc">INFERENCE</text>
+  <rect x="917" y="222" width="39" height="3" rx="1.5" fill="#7dc4eb"/>
+  <text x="917" y="257" font-size="16" fill="#b9d8de">Service integration</text>
+  <text x="917" y="282" font-size="15" fill="#91b6c0">FastAPI · viewer · MLflow</text>
+</g>
+<text x="42" y="345" font-family="Arial,sans-serif" font-size="12" letter-spacing="2" fill="#8fb6c0">ONE PROJECT  ·  MODEL RESEARCH + CDSS SERVICE</text>
+</svg>
