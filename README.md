@@ -8,16 +8,24 @@
 </p>
 
 <p align="center">
+  <a href="#tech-stack">STACK</a> &nbsp;•&nbsp;
   <a href="#featured-project">PROJECT</a> &nbsp;•&nbsp;
-  <a href="#what-i-did">MY WORK</a> &nbsp;•&nbsp;
-  <a href="#tech-stack">STACK</a>
+  <a href="#what-i-did">MY WORK</a>
 </p>
 
 <br/>
 
+<a id="tech-stack"></a>
+
+## 01 / Tech Stack
+
+<p align="center">
+  <img src="./assets/tech-stack.svg" alt="Tech stack: Python, PyTorch, MONAI, nnU-Net, SegResNet, NumPy, FastAPI, DRF, Celery, RabbitMQ, Docker, Cloud Run, GCS, MLflow, React, TypeScript, PostgreSQL" width="100%" />
+</p>
+
 <a id="featured-project"></a>
 
-## 01 / Featured Project
+## 02 / Featured Project
 
 ### BrainOn <sub>의료영상 AI · 임상 의사결정 지원 시스템</sub>
 
@@ -41,7 +49,7 @@
 
 <a id="what-i-did"></a>
 
-## 02 / My Work
+## 03 / My Work
 
 **데이터 품질** &nbsp; CT 영상의 방향·간격·레이블을 점검하고 전처리 기준을 정리했습니다.
 
@@ -52,14 +60,6 @@
 > BrainOn에서 익힌 데이터 검증, 실험 설계, 실패 분석, 추론 구현 방식을 새로운 문제와 데이터에도 적용하고자 합니다.
 
 <br/>
-
-<a id="tech-stack"></a>
-
-## 03 / Tech Stack
-
-| AI · Data | API · Serving | Product · Tools |
-| :--- | :--- | :--- |
-| Python · PyTorch<br/>MONAI · nnU-Net<br/>SegResNet · NumPy | FastAPI · Django REST Framework<br/>Celery · RabbitMQ<br/>Docker · Cloud Run · GCS | MLflow · PostgreSQL<br/>React · TypeScript<br/>Git · GitHub |
 
 <details>
 <summary><b>Background &amp; Credentials</b></summary>
