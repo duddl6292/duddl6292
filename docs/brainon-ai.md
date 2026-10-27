@@ -2,7 +2,7 @@
 
 [← GitHub 프로필로 돌아가기](../README.md)
 
-4인 팀에서 CT·MRI·MRA 의료영상의 병변 분석 모델을 서비스 화면에 연동했습니다. 담당 범위는 **데이터 품질 검증, 분할 모델 실험·평가, 추론 API와 결과 연동**입니다.
+3인 팀에서 CT·MRI·MRA 의료영상의 병변 분석 모델을 서비스 화면에 연동했습니다. 담당 범위는 **데이터 품질 검증, 분할 모델 실험·평가, 추론 API와 결과 연동**입니다.
 
 **사용 기술:** Python, PyTorch, MONAI, nnU-Net, SegResNet · FastAPI, Django, Celery · GCS, MLflow
 
@@ -26,7 +26,7 @@
 
 ## 코드
 
-- [모델 연구 저장소](https://github.com/brainCDSS/model) — 팀 비공개 저장소 (학습·실험·평가)
-- [BrainOn 서비스 저장소](https://github.com/brainCDSS/BrainCDSS) — 팀 비공개 저장소 (웹·백엔드·추론 연동)
+- [모델 연구 저장소](https://github.com/brainCDSS/model) — 모델 학습 저장소 (학습·실험·평가)
+- [BrainOn 서비스 저장소](https://github.com/brainCDSS/BrainCDSS) — 프로젝트 저장소 (웹·백엔드·추론 연동)
 
 원본 영상과 모델 가중치는 공개하지 않았습니다.
